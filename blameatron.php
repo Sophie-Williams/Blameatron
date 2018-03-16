@@ -89,7 +89,7 @@ function counterblame($target)
 function blame_whoever() 
 { 
      
-    $names = array ("Zardymuffin", "Sandymuffin", "Deadmuffin", "oohmsickle", "eskymob", "lolsquid", "tofumuffin", "loltorn", "wombles", "pikemaster", "the beer admin", "wolfmo", "the BlameMaster"); 
+    $names = array ("Someone"); 
 
 
     if ( !$_GET['name']) 
@@ -146,7 +146,7 @@ if ( !$_GET['raw'])
 <form method='get'><br /><br /> 
     <input type='submit' name='tempt_fate' value='Tempt fate.' /> 
 </form></div> 
-<br /><br /><h6 align='center'>lol@dongues.com - <a href='http://hambreaker.jizzstorm.net/~strinh/blameatron.pl'>IRSSI !blame script</a></h6></body></html> 
+<br /><br /><h6 align='center'>lewis@9thcircle.net - <a href='https://github.com/wolfmother/BlameatronPHP'>GitHub Repo</a></h6></body></html> 
 
 <!-- By Wolfmuffin and SirSquidness 02/05/2010 lol. SYNTACTICAL VALIDITY TESTS by sando // You have been count #<?PHP echo $count; ?> \\ --> 
 <?PHP  
