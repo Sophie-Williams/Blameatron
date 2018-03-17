@@ -8,6 +8,8 @@ Finally, a script that generates the terrible hentai game titles you've been cra
 
 There's even an irssi bot so you can !blame one another until your eyeballs bleed !!!!!
 
+You can host it anywhere you have a PHP host and the ability to write to a counter file !!!!!
+
 One of this script's possible outputs is actually legitimately the name of a real hentai game !!!!!
 
 Run it over and over and over and over again until you find out which !!!!!
