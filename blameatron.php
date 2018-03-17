@@ -11,9 +11,13 @@
 $countFile = 'count.html'; // File to store the hit counter in 
   
 if ( !$_GET['raw'] && !$_GET['url']) 
-    echo "<html><head><title>Fantastic new title generator!</title></head><body><div align='center'>Need a title for your hentai game?</div><br /><br /><br /><br /><br /><br /><div align='center' style='text-decoration:blink;font-size: 99px;'>"; 
-  
-  
+{
+    echo "<html><head><title>Fantastic new title generator!</title></head><body>";
+	
+	echo "<div id='fb-root'></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>";
+
+	echo "<div align='center'>Need a title for your hentai game?</div><br /><br /><br /><br /><br /><br /><div align='center' style='text-decoration:blink;font-size: 99px;'>"; 
+}
 if ( $_GET['url'] ) 
 { 
 
@@ -146,12 +150,13 @@ if ( !$_GET['raw'])
 <form method='get'><br /><br /> 
     <input type='submit' name='tempt_fate' value='Tempt fate.' /> 
 </form></div> 
-<br /><br /><h6 align='center'>lewis@9thcircle.net - <a href='https://github.com/wolfmother/BlameatronPHP'>GitHub Repo</a></h6></body></html> 
+<br /><br /><h6 align='center'>lewis@9thcircle.net - <a href='https://github.com/wolfmother/BlameatronPHP'>GitHub Repo</a></h6>
+<div class='fb-share-button' data-href='http://www.nationalblame.net/' data-layout='button_count' data-size='small' data-mobile-iframe='true'><a target='_blank' href='https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.nationalblame.net%2F&amp;src=sdkpreparse' class'fb-xfbml-parse-ignore'>Share</a></div>
+</body></html> 
 
 <!-- By Wolfmuffin and SirSquidness 02/05/2010 lol. SYNTACTICAL VALIDITY TESTS by sando // You have been count #<?PHP echo $count; ?> \\ --> 
 <?PHP  
 } 
-
 
 function num_suffix ($number) 
 { 
